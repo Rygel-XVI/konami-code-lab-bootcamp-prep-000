@@ -6,7 +6,7 @@ function init() {
   document.body.addEventListener(`keydown`, function(e) {keydownHandler(e)})
 
   // Write your JavaScript code inside the init() function
-  function keydownHandler(key) {
+  function keydownHandler(e) {
 //    var key = parseInt(e.detail || e.which)
     var key = parseInt(e.detail || e.which)
     console.log(`key ${parseInt(e.detail)}`)
